@@ -75,6 +75,12 @@ which.max(summary.out$adjr2)
 
 With the max codeblock it tells us that 2 is the best model. It has the highers r-squard value.
 
+
+```{r}
+summary.out$which[2,]
+```
+With the summary code we can see that Height and width will give us the best model.
+
 ### Best Two regressor model
 
 
