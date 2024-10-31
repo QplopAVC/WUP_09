@@ -65,7 +65,7 @@ library(car)
 subsets(regsubsets.out,statistic="adjr2",legend="bottom",main="Adjusted R^2")
 ```
 
-This shows that Height and Width is the best model. We can further test the models.
+This shows that Height and Width is the best model. We can further test the best models.
 
 ### Best Models
 
